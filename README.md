@@ -9,6 +9,6 @@ booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVP
 month = {June},  
 year = {2018}  
 }  
-##### **Requirements**  
+## **Requirements**  
 The code is based on Python 2.7 and Pytorch 0.3.0.
 
