@@ -14,7 +14,6 @@ from model import F35_N8
 parser = argparse.ArgumentParser(description='parser for video prediction')
 parser.add_argument('--input', type=str, required=True, help='input image')
 parser.add_argument('--cuda', action='store_true', help='use cuda')
-parser.add_argument('--out', type=str, required=True, help='output image')
 
 args = parser.parse_args()
 # load model
@@ -66,7 +65,14 @@ if args.cuda:
     output5 = output3_5[1].cpu()
     output6 = output2_6[1].cpu()
     output7 = output1_7[1].cpu()
-
+else:
+    output1 = output1_7[0]
+    output2 = output2_6[0]
+    output3 = output3_5[0]
+    output4 = output4
+    output5 = output3_5[1]
+    output6 = output2_6[1]
+    output7 = output1_7[1]
 output_data = output1.data[0]*255
 utils.save_image(inputFile[:-4] + '-esti1' + inputFile[-4:], output_data)                
 output_data = output2.data[0]*255
