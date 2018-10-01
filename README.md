@@ -1,5 +1,5 @@
 # test
-This repository is a PyTorch implementation of the paper "Learning to Extract a Video Sequence from a Single Motion-Blurred Image" from CVPR 2018 [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jin_Learning_to_Extract_CVPR_2018_paper.pdf.)[[arxiv]](https://arxiv.org/pdf/1804.04065.pdf)[[supplementary]](https://github.com/MeiguangJin/test/blob/master/supplementary.pdf).
+This repository is a PyTorch implementation of the paper "Learning to Extract a Video Sequence from a Single Motion-Blurred Image" from CVPR 2018 [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Jin_Learning_to_Extract_CVPR_2018_paper.pdf.)[[arxiv]](https://arxiv.org/pdf/1804.04065.pdf)[[supplementary]](https://github.com/MeiguangJin/test/blob/master/supplementary.pdf)[[video examples]](https://github.com/MeiguangJin/test/blob/master/video_demo.zip).
 
 If you find our work useful in your research or publication, please cite our work:
 
