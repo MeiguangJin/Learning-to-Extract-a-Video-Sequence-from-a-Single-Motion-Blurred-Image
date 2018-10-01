@@ -17,4 +17,7 @@ Download pretrained models from [here](https://www.dropbox.com/sh/r0n9x6uz1ke8iu
 python demo.py --cuda --input input.png
 ```  
 ## **Training**  
-To be updated
+To be updated  
+
+## **Contact**
+If you have any suggestions and questions, please send an email to jin@inf.unibe.ch
