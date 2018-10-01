@@ -10,5 +10,9 @@ month = {June},
 year = {2018}  
 }  
 ## **Requirements**  
-The code is based on Python 2.7 and Pytorch 0.3.0.
-
+The code is based on Python 2.7 and Pytorch 0.3.0.  
+## **Test**
+Download pretrained models from [here](https://www.dropbox.com/sh/r0n9x6uz1ke8iuy/AADJBQBf9E2UMzG4Gt2Az-Qza?dl=0).  
+```
+python demo.py --cuda --input input.png
+```
